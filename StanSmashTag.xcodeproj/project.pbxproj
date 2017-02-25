@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		84B0EFA31E61E48E00A89880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0EFA21E61E48E00A89880 /* AppDelegate.swift */; };
-		84B0EFA51E61E48E00A89880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0EFA41E61E48E00A89880 /* ViewController.swift */; };
 		84B0EFA81E61E48E00A89880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B0EFA61E61E48E00A89880 /* Main.storyboard */; };
 		84B0EFAA1E61E48E00A89880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B0EFA91E61E48E00A89880 /* Assets.xcassets */; };
 		84B0EFAD1E61E48E00A89880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B0EFAB1E61E48E00A89880 /* LaunchScreen.storyboard */; };
+		84B0EFB61E61E53300A89880 /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0EFB51E61E53300A89880 /* TweetTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84B0EF9F1E61E48E00A89880 /* StanSmashTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanSmashTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B0EFA21E61E48E00A89880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84B0EFA41E61E48E00A89880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84B0EFA71E61E48E00A89880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84B0EFA91E61E48E00A89880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B0EFAC1E61E48E00A89880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B0EFAE1E61E48E00A89880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B0EFB51E61E53300A89880 /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,22 @@
 		84B0EFA11E61E48E00A89880 /* StanSmashTag */ = {
 			isa = PBXGroup;
 			children = (
-				84B0EFA21E61E48E00A89880 /* AppDelegate.swift */,
-				84B0EFA41E61E48E00A89880 /* ViewController.swift */,
+				84B0EFB41E61E4C100A89880 /* supporting files */,
 				84B0EFA61E61E48E00A89880 /* Main.storyboard */,
+				84B0EFB51E61E53300A89880 /* TweetTableViewController.swift */,
+			);
+			path = StanSmashTag;
+			sourceTree = "<group>";
+		};
+		84B0EFB41E61E4C100A89880 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				84B0EFA21E61E48E00A89880 /* AppDelegate.swift */,
 				84B0EFA91E61E48E00A89880 /* Assets.xcassets */,
 				84B0EFAB1E61E48E00A89880 /* LaunchScreen.storyboard */,
 				84B0EFAE1E61E48E00A89880 /* Info.plist */,
 			);
-			path = StanSmashTag;
+			name = "supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B0EFA51E61E48E00A89880 /* ViewController.swift in Sources */,
 				84B0EFA31E61E48E00A89880 /* AppDelegate.swift in Sources */,
+				84B0EFB61E61E53300A89880 /* TweetTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
