@@ -12,7 +12,47 @@
 		84B0EFAA1E61E48E00A89880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B0EFA91E61E48E00A89880 /* Assets.xcassets */; };
 		84B0EFAD1E61E48E00A89880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B0EFAB1E61E48E00A89880 /* LaunchScreen.storyboard */; };
 		84B0EFB61E61E53300A89880 /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0EFB51E61E53300A89880 /* TweetTableViewController.swift */; };
+		84B0EFC31E623C5E00A89880 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B0EFBC1E61FF8E00A89880 /* Twitter.framework */; };
+		84B0EFC41E623C5E00A89880 /* Twitter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84B0EFBC1E61FF8E00A89880 /* Twitter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B0EFBB1E61FF8E00A89880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B0EFB71E61FF8E00A89880 /* Twitter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAB79D151BD20B7900448104;
+			remoteInfo = Twitter;
+		};
+		84B0EFC11E61FF9700A89880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B0EFBD1E61FF9700A89880 /* Twitter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAB79D151BD20B7900448104;
+			remoteInfo = Twitter;
+		};
+		84B0EFC51E623C5E00A89880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B0EFB71E61FF8E00A89880 /* Twitter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB79D141BD20B7900448104;
+			remoteInfo = Twitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84B0EFC71E623C5E00A89880 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84B0EFC41E623C5E00A89880 /* Twitter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		84B0EF9F1E61E48E00A89880 /* StanSmashTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanSmashTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +62,8 @@
 		84B0EFAC1E61E48E00A89880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B0EFAE1E61E48E00A89880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B0EFB51E61E53300A89880 /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
+		84B0EFB71E61FF8E00A89880 /* Twitter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Twitter.xcodeproj; path = "../cs193p-Spring-2016/democode/Smashtag-L9/Twitter/Twitter.xcodeproj"; sourceTree = "<group>"; };
+		84B0EFBD1E61FF9700A89880 /* Twitter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Twitter.xcodeproj; path = "../cs193p-Spring-2016/democode/Smashtag-L9/Twitter/Twitter.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B0EFC31E623C5E00A89880 /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +81,8 @@
 		84B0EF961E61E48E00A89880 = {
 			isa = PBXGroup;
 			children = (
+				84B0EFBD1E61FF9700A89880 /* Twitter.xcodeproj */,
+				84B0EFB71E61FF8E00A89880 /* Twitter.xcodeproj */,
 				84B0EFA11E61E48E00A89880 /* StanSmashTag */,
 				84B0EFA01E61E48E00A89880 /* Products */,
 			);
@@ -72,6 +117,22 @@
 			name = "supporting files";
 			sourceTree = "<group>";
 		};
+		84B0EFB81E61FF8E00A89880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B0EFBC1E61FF8E00A89880 /* Twitter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B0EFBE1E61FF9700A89880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B0EFC21E61FF9700A89880 /* Twitter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,10 +143,12 @@
 				84B0EF9B1E61E48E00A89880 /* Sources */,
 				84B0EF9C1E61E48E00A89880 /* Frameworks */,
 				84B0EF9D1E61E48E00A89880 /* Resources */,
+				84B0EFC71E623C5E00A89880 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				84B0EFC61E623C5E00A89880 /* PBXTargetDependency */,
 			);
 			name = StanSmashTag;
 			productName = StanSmashTag;
@@ -120,12 +183,39 @@
 			mainGroup = 84B0EF961E61E48E00A89880;
 			productRefGroup = 84B0EFA01E61E48E00A89880 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84B0EFB81E61FF8E00A89880 /* Products */;
+					ProjectRef = 84B0EFB71E61FF8E00A89880 /* Twitter.xcodeproj */;
+				},
+				{
+					ProductGroup = 84B0EFBE1E61FF9700A89880 /* Products */;
+					ProjectRef = 84B0EFBD1E61FF9700A89880 /* Twitter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				84B0EF9E1E61E48E00A89880 /* StanSmashTag */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84B0EFBC1E61FF8E00A89880 /* Twitter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Twitter.framework;
+			remoteRef = 84B0EFBB1E61FF8E00A89880 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84B0EFC21E61FF9700A89880 /* Twitter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Twitter.framework;
+			remoteRef = 84B0EFC11E61FF9700A89880 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		84B0EF9D1E61E48E00A89880 /* Resources */ = {
@@ -151,6 +241,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B0EFC61E623C5E00A89880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Twitter;
+			targetProxy = 84B0EFC51E623C5E00A89880 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		84B0EFA61E61E48E00A89880 /* Main.storyboard */ = {
@@ -266,6 +364,7 @@
 		84B0EFB21E61E48E00A89880 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4NS5L7XDWJ;
 				INFOPLIST_FILE = StanSmashTag/Info.plist;
@@ -279,6 +378,7 @@
 		84B0EFB31E61E48E00A89880 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4NS5L7XDWJ;
 				INFOPLIST_FILE = StanSmashTag/Info.plist;
@@ -308,6 +408,7 @@
 				84B0EFB31E61E48E00A89880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
